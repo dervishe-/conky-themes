@@ -1,6 +1,5 @@
 background no
 use_xft yes
-xftfont Bitstream Vera Sans Mono:size=8
 xftalpha 0.8
 mail_spool $MAIL
 update_interval 2.0
@@ -8,7 +7,7 @@ total_run_times 0
 own_window no
 own_window_type normal
 own_window_transparent yes
-own_window_colour hotpink
+own_window_colour black
 double_buffer yes
 minimum_size 1320 5
 draw_shades no
@@ -29,12 +28,20 @@ uppercase no
 cpu_avg_samples 1
 net_avg_samples 1
 override_utf8_locale yes
+use_spacer none
 TEXT
-${font Vipnagorgialla:size=20}${offset 475}${voffset 180}KRN: $kernel${offset -475}${voffset -180}
-${offset 475}${voffset 180}$time${offset -475}${voffset -180}
-${offset 475}${voffset 280}${cpugraph cpu0 40,280 -l}${offset -475}${voffset -280}${font Vipnagorgialla:size=12}
-${offset 820}${voffset 205}${swapbar 10,225}${offset -820}${voffset -205}
-${offset 820}${voffset 205}${membar 40,225}${offset -820}${voffset -205}${font Vipnagorgialla:size=26}
+${font Vipnagorgialla:size=14}${offset 5}${voffset 5}UPTIME: ${exec uptime | cut --delim="," -f 1,2 | sed "s/.*up\(.*\)/\1/"}${offset -5}${voffset -5}
+${font Vipnagorgialla:size=20}${offset 475}${voffset 160}KRN: $kernel${offset -475}${voffset -160}
+${offset 475}${voffset 165}$time${offset -475}${voffset -165}
+${offset 475}${voffset 260}${cpugraph cpu0 40,280 -l}${offset -475}${voffset -260}${font Vipnagorgialla:size=12}
+${offset 820}${voffset 190}${swapbar 10,225}${offset -820}${voffset -190}
+${offset 820}${voffset 190}${membar 40,225}${offset -820}${voffset -190}${font Vipnagorgialla:size=14}
+${offset 460}${voffset 200}PROCESSES: (NAME %CPU %MEM)${offset -460}${voffset -200}
+${offset 475}${voffset 200}${top name 1}${alignr 550} ${top cpu 1} ${top mem 1}${offset -475}${voffset -200}
+${offset 475}${voffset 200}${top name 2}${alignr 550} ${top cpu 2} ${top mem 2}${offset -475}${voffset -200}
+${offset 475}${voffset 200}${top name 3}${alignr 550} ${top cpu 3} ${top mem 3}${offset -475}${voffset -200}
+${offset 475}${voffset 200}${top name 4}${alignr 550} ${top cpu 4} ${top mem 4}${offset -475}${voffset -200}
+${offset 475}${voffset 200}${top name 5}${alignr 550} ${top cpu 5} ${top mem 5}${offset -475}${voffset -330}${font Vipnagorgialla:size=26}
 ${offset 25}${voffset 460}${freq 1}/${cpu cpu1}${offset -25}${voffset -460}
 ${offset 25}${voffset 455}${exec sensors | grep 'Core 0' | awk '{ print $3}'}${offset -25}${voffset -455}
 ${offset 218}${voffset 395}${freq 2}/${cpu cpu2}${offset -218}${voffset -395}
@@ -48,10 +55,10 @@ ${offset 1145}${voffset 190}$swap${offset -1145}${voffset -190}
 ${offset 1100}${voffset -320}${font Vipnagorgialla:size=14}ROOT ${fs_used /}/${fs_size /}${offset -1100}${voffset 320}
 ${offset 1100}${voffset -320}${fs_bar /}${offset -1100}${voffset 320}
 ${offset 1100}${voffset -320}TMP ${fs_used /tmp}/${fs_size /tmp}${offset -1100}${voffset 320}
-${offset 1100}${voffset -320}${fs_bar /}${offset -1100}${voffset 320}
+${offset 1100}${voffset -320}${fs_bar /tmp}${offset -1100}${voffset 320}
 ${if_mounted /mnt/usb}${offset 1100}${voffset -320}USB ${fs_used /mnt/usb}/${fs_size /mnt/usb}${offset -1100}${voffset 320}${endif}
 ${if_mounted /mnt/usb}${offset 1100}${voffset -320}${fs_bar /mnt/usb}${offset -1100}${voffset 320}${endif}
-${if_mounted /mnt/work}${offset 1100}${voffset -320}WORK ${fs_used /mnt/work}/${fs_size /mnt/usb}${offset -1100}${voffset 320}${endif}
+${if_mounted /mnt/work}${offset 1100}${voffset -320}WORK ${fs_used /mnt/work}/${fs_size /mnt/work}${offset -1100}${voffset 320}${endif}
 ${if_mounted /mnt/work}${offset 1100}${voffset -320}${fs_bar /mnt/work}${offset -1100}${voffset 320}${endif}
 ${offset 1150}${voffset -150}${font Vipnagorgialla:size=18}${battery_time BAT1}${offset -1150}${voffset 150}
 ${offset 1150}${voffset -145}${battery_bar 8,140 BAT1}${offset -1150}${voffset 145}${font Vipnagorgialla:size=20}
