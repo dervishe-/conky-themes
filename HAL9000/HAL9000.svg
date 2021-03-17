@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -13,10 +11,53 @@
    height="1200px"
    id="svg2985"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="HAL9000_1.svg">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="HAL9000.svg"
+   inkscape:export-filename="/home/dervishe/Work/conky-themes/HAL9000/HAL9000.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
-     id="defs2987" />
+     id="defs2987">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1541"
+       x="-4.5529285e-05"
+       width="1.0000911"
+       y="-1.2165039e-05"
+       height="1.0000243">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.005455052"
+         id="feGaussianBlur1543" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1399"
+       x="-1.1097548e-06"
+       width="1.0000022"
+       y="-1.3062262e-06"
+       height="1.0000026">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.00011989452"
+         id="feGaussianBlur1401" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1403"
+       x="-1.2594686e-06"
+       width="1.0000025"
+       y="-2.3387968e-06"
+       height="1.0000047">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.00011989452"
+         id="feGaussianBlur1405" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,19 +65,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0300146"
-     inkscape:cx="808.43516"
-     inkscape:cy="383.40191"
+     inkscape:zoom="0.5150073"
+     inkscape:cx="1048.91"
+     inkscape:cy="779.01171"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1175"
+     inkscape:window-width="1916"
+     inkscape:window-height="1041"
      inkscape:window-x="0"
-     inkscape:window-y="768"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata2990">
     <rdf:RDF>
@@ -54,82 +96,80 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer">
     <g
-       id="g3230"
-       inkscape:export-filename="/home/alex/themes/hall9000_1.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
+       id="g1087"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <rect
-         y="390.40958"
-         x="137.82784"
-         height="768"
-         width="1366"
+         y="30.319136"
+         x="-129.77234"
+         height="1080"
+         width="1920"
          id="rect2999"
-         style="fill:#000000;fill-opacity:1;stroke:none" />
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.4059;paint-order:markers fill stroke" />
       <rect
-         y="388.47189"
-         x="940.45605"
-         height="771.87537"
-         width="288.13797"
+         y="392.22977"
+         x="1164.7479"
+         height="1076.209"
+         width="287.55392"
          id="rect3946"
-         style="fill:#f60100;fill-opacity:1;stroke:#ffffff;stroke-width:3.21799994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         style="fill:#f60100;fill-opacity:1;stroke:#ffffff;stroke-width:3.79628;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke;filter:url(#filter1541)"
+         transform="matrix(0.99999983,0,0,1.0069782,-267.59995,-366.40569)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke;filter:url(#filter1403)"
+         x="1039.3042"
+         y="254.60225"
+         id="text3948"><tspan
+           sodipodi:role="line"
+           id="tspan3950"
+           x="1039.3042"
+           y="254.60225"
+           style="font-size:56px;line-height:85%;fill:#ffffff;paint-order:markers fill stroke">LOGIC</tspan><tspan
+           sodipodi:role="line"
+           x="1039.3042"
+           y="302.20221"
+           id="tspan3954"
+           style="font-size:56px;line-height:85%;fill:#ffffff;paint-order:markers fill stroke">MEMORY</tspan><tspan
+           sodipodi:role="line"
+           x="1039.3042"
+           y="349.80225"
+           id="tspan3952"
+           style="font-size:56px;line-height:85%;fill:#ffffff;paint-order:markers fill stroke">CENTER</tspan></text>
+      <rect
+         style="fill:none;stroke:#ffffff;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke;filter:url(#filter1399)"
+         id="rect3956"
+         width="259.28867"
+         height="220.28868"
+         x="911.28046"
+         y="213.02687" />
       <g
-         transform="translate(0,-0.15672576)"
-         id="g3981">
-        <text
-           xml:space="preserve"
-           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:85.00000238%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla"
-           x="1082.9045"
-           y="611.24695"
-           id="text3948"
-           sodipodi:linespacing="85.000002%"><tspan
-             sodipodi:role="line"
-             id="tspan3950"
-             x="1082.9045"
-             y="611.24695"
-             style="font-size:56px;line-height:85.00000238%;fill:#ffffff">LOGIC</tspan><tspan
-             sodipodi:role="line"
-             x="1082.9045"
-             y="658.84692"
-             id="tspan3954"
-             style="font-size:56px;line-height:85.00000238%;fill:#ffffff">MEMORY</tspan><tspan
-             sodipodi:role="line"
-             x="1082.9045"
-             y="706.44696"
-             id="tspan3952"
-             style="font-size:56px;line-height:85.00000238%;fill:#ffffff">CENTER</tspan></text>
+         id="g1075"
+         transform="translate(-246.16705,-360.73675)"
+         style="paint-order:markers fill stroke">
         <rect
-           style="fill:none;stroke:#ffffff;stroke-width:4.71132326;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-           id="rect3956"
-           width="259.28867"
-           height="220.28868"
-           x="954.88068"
-           y="573.67157" />
-      </g>
-      <g
-         transform="translate(-4,-0.15671813)"
-         id="g3988">
-        <rect
-           style="fill:none;stroke:#ffffff;stroke-width:5.20889425;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           style="fill:none;stroke:#ffffff;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
            id="rect3956-8-6"
            width="317.66611"
            height="219.79111"
-           x="610.09491"
-           y="573.92035" />
+           x="808.09491"
+           y="573.76361" />
         <g
            id="g4074"
-           transform="translate(27.490485,-19.354355)">
+           transform="translate(225.49048,-19.511073)"
+           style="paint-order:markers fill stroke">
           <g
              transform="translate(-1.8358231e-5,6.2139893)"
-             id="g4062">
+             id="g4062"
+             style="paint-order:markers fill stroke">
             <rect
-               style="fill:#0765c7;fill-opacity:1;stroke:#ffffff;stroke-width:4.04895401;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+               style="fill:#0765c7;fill-opacity:1;stroke:#ffffff;stroke-width:4.04895;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
                id="rect4026"
                width="158.95105"
                height="85.013855"
                x="582.33521"
                y="654.44934" />
             <rect
-               style="fill:none;stroke:#ffffff;stroke-width:4.04606724;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+               style="fill:none;stroke:#ffffff;stroke-width:4.04607;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
                id="rect4026-2"
                width="158.95393"
                height="84.891113"
@@ -137,25 +177,23 @@
                y="654.50153" />
           </g>
           <text
-             sodipodi:linespacing="125%"
              id="text4066"
              y="717.03027"
              x="819.80194"
-             style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
              xml:space="preserve"><tspan
-               style="font-size:56px;fill:#ffffff"
+               style="font-size:56px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke"
                y="717.03027"
                x="819.80194"
                id="tspan4068"
                sodipodi:role="line">9000</tspan></text>
           <text
-             sodipodi:linespacing="125%"
              id="text4070"
              y="717.08624"
              x="685.24194"
-             style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
              xml:space="preserve"><tspan
-               style="font-size:56px;fill:#ffffff"
+               style="font-size:56px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke"
                y="717.08624"
                x="685.24194"
                id="tspan4072"
@@ -163,186 +201,335 @@
         </g>
       </g>
       <g
-         transform="translate(0,-0.15671813)"
-         id="g3976">
+         id="g1527"
+         transform="translate(-245.60017,-360.09044)"
+         style="paint-order:markers fill stroke">
         <rect
-           style="fill:none;stroke:#ffffff;stroke-width:4.58486414;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-           id="rect3956-8"
-           width="245.41513"
-           height="220.41513"
-           x="1240.8826"
-           y="573.60834" />
-        <text
-           xml:space="preserve"
-           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla"
-           x="1362.8937"
-           y="610.68799"
-           id="text3972"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3974"
-             x="1362.8937"
-             y="610.68799"
-             style="font-size:50px;fill:#ffffff">STORAGE</tspan></text>
-      </g>
-      <g
-         transform="translate(0,0.15672791)"
-         id="g3128">
-        <rect
-           style="fill:none;stroke:#ffffff;stroke-width:6.09114981;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           style="fill:none;stroke:#ffffff;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
            id="rect3956-8-3"
-           width="436.13913"
-           height="218.90884"
-           x="150.85727"
-           y="574.04803" />
+           width="635.82751"
+           height="217.66634"
+           x="151.47852"
+           y="573.11731" />
         <text
            xml:space="preserve"
-           style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
            x="284.1124"
-           y="613.28717"
-           id="text3972-1"
-           sodipodi:linespacing="125%"><tspan
+           y="613.44391"
+           id="text3972-1"><tspan
              sodipodi:role="line"
              id="tspan3974-4"
              x="284.1124"
-             y="613.28717"
-             style="font-size:50px;fill:#ffffff">NETWORK</tspan></text>
+             y="613.44391"
+             style="font-size:50px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke">NETWORK</tspan></text>
       </g>
       <g
-         id="g3204">
+         id="g3199"
+         transform="translate(-53.81435,-83.96021)"
+         style="paint-order:markers fill stroke">
+        <rect
+           y="1023.4375"
+           x="1288.0668"
+           height="96.25"
+           width="165"
+           id="rect3012-0"
+           style="fill:#0765c7;fill-opacity:1;stroke:none;paint-order:markers fill stroke" />
+        <text
+           id="text3018-2"
+           y="1057.38"
+           x="1348.2722"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
+           xml:space="preserve"><tspan
+             style="font-size:48px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke"
+             y="1057.38"
+             x="1348.2722"
+             id="tspan3020-7"
+             sodipodi:role="line">MEM</tspan></text>
+      </g>
+      <g
+         id="g3194"
+         transform="translate(-53.81435,-77.96021)"
+         style="paint-order:markers fill stroke">
+        <rect
+           y="894.59711"
+           x="1288.0668"
+           height="96.25"
+           width="165"
+           id="rect3012-1-9"
+           style="fill:#0d3e67;fill-opacity:1;stroke:none;paint-order:markers fill stroke" />
+        <text
+           id="text3018-74-8"
+           y="930.53961"
+           x="1356.5056"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
+           xml:space="preserve"><tspan
+             style="font-size:48px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke"
+             y="930.53961"
+             x="1356.5056"
+             id="tspan3020-4-9"
+             sodipodi:role="line">BATT</tspan></text>
+      </g>
+      <rect
+         style="fill:none;stroke:#ffffff;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect3956-8-9"
+         width="539.14471"
+         height="218.23804"
+         x="1219.338"
+         y="213.90785" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
+         x="1344.2606"
+         y="253.89894"
+         id="text3972-10"><tspan
+           sodipodi:role="line"
+           id="tspan3974-7"
+           x="1344.2606"
+           y="253.89894"
+           style="font-size:50px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke">STORAGE</tspan></text>
+      <g
+         id="g1522"
+         transform="translate(-270.03473,-346.05024)"
+         style="paint-order:markers fill stroke">
         <g
-           id="g3130">
+           id="g1480"
+           style="paint-order:markers fill stroke">
           <rect
-             y="1023.4375"
-             x="165"
+             y="1286.6178"
+             x="954.36591"
+             height="96.25"
+             width="165"
+             id="rect3012-7-0"
+             style="fill:#0765c7;fill-opacity:1;stroke:none;paint-order:markers fill stroke" />
+          <text
+             id="text3018-0-28"
+             y="1322.5603"
+             x="1037.1952"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
+             xml:space="preserve"><tspan
+               style="font-size:48px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke"
+               y="1322.5603"
+               x="1037.1952"
+               id="tspan3020-1-3"
+               sodipodi:role="line">GPU/2</tspan></text>
+        </g>
+        <g
+           id="g1330"
+           style="paint-order:markers fill stroke">
+          <rect
+             y="1286.6178"
+             x="182.99698"
              height="96.25"
              width="165"
              id="rect3012"
-             style="fill:#0765c7;fill-opacity:1;stroke:none" />
+             style="fill:#0765c7;fill-opacity:1;stroke:none;paint-order:markers fill stroke" />
           <text
-             sodipodi:linespacing="125%"
              id="text3018"
-             y="1059.38"
-             x="238.75"
-             style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla"
+             y="1322.5603"
+             x="265.27084"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
              xml:space="preserve"><tspan
-               style="font-size:48px;fill:#ffffff"
-               y="1059.38"
-               x="238.75"
+               style="font-size:48px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke"
+               y="1322.5603"
+               x="265.27084"
                id="tspan3020"
-               sodipodi:role="line">CPU/1</tspan></text>
+               sodipodi:role="line">CPU/5</tspan></text>
         </g>
         <g
-           id="g3872">
+           id="g1322"
+           style="paint-order:markers fill stroke">
           <rect
-             y="1023.4375"
-             x="359.16669"
+             y="1286.6178"
+             x="375.8392"
              height="96.25"
              width="165"
              id="rect3012-74"
-             style="fill:#6a699c;fill-opacity:1;stroke:none" />
+             style="fill:#6a699c;fill-opacity:1;stroke:none;paint-order:markers fill stroke" />
           <text
-             sodipodi:linespacing="125%"
              id="text3018-7"
-             y="1059.38"
-             x="438.77225"
-             style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla"
+             y="1322.5603"
+             x="458.26797"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
              xml:space="preserve"><tspan
-               style="font-size:48px;fill:#ffffff"
-               y="1059.38"
-               x="438.77225"
+               style="font-size:48px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke"
+               y="1322.5603"
+               x="458.26797"
                id="tspan3020-8"
-               sodipodi:role="line">CPU/2</tspan></text>
+               sodipodi:role="line">CPU/6</tspan></text>
         </g>
         <g
-           id="g3146">
+           id="g1314"
+           style="paint-order:markers fill stroke">
           <rect
-             y="1023.4375"
-             x="553.33337"
+             y="1286.6178"
+             x="568.68146"
              height="96.25"
              width="165"
              id="rect3012-1"
-             style="fill:#0d3e67;fill-opacity:1;stroke:none" />
+             style="fill:#0d3e67;fill-opacity:1;stroke:none;paint-order:markers fill stroke" />
           <text
-             sodipodi:linespacing="125%"
              id="text3018-74"
-             y="1059.38"
-             x="631.77228"
-             style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla"
+             y="1322.5603"
+             x="650.06433"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
              xml:space="preserve"><tspan
-               style="font-size:48px;fill:#ffffff"
-               y="1059.38"
-               x="631.77228"
+               style="font-size:48px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke"
+               y="1322.5603"
+               x="650.06433"
                id="tspan3020-4"
-               sodipodi:role="line">CPU/3</tspan></text>
+               sodipodi:role="line">CPU/7</tspan></text>
         </g>
         <g
-           id="g3154">
+           id="g1306"
+           style="paint-order:markers fill stroke">
           <rect
-             y="1023.4375"
-             x="747.5"
+             y="1286.6178"
+             x="761.52368"
              height="96.25"
              width="165"
              id="rect3012-7"
-             style="fill:#fe0000;fill-opacity:1;stroke:none" />
+             style="fill:#fe0000;fill-opacity:1;stroke:none;paint-order:markers fill stroke" />
           <text
-             sodipodi:linespacing="125%"
              id="text3018-0"
-             y="1059.38"
-             x="825.27228"
-             style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla"
+             y="1322.5603"
+             x="844.19318"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
              xml:space="preserve"><tspan
-               style="font-size:48px;fill:#ffffff"
-               y="1059.38"
-               x="825.27228"
+               style="font-size:48px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke"
+               y="1322.5603"
+               x="844.19318"
                id="tspan3020-1"
+               sodipodi:role="line">CPU/8</tspan></text>
+        </g>
+        <g
+           id="g1464"
+           style="paint-order:markers fill stroke">
+          <rect
+             y="1162.3219"
+             x="182.99698"
+             height="96.25"
+             width="165"
+             id="rect3012-8"
+             style="fill:#0765c7;fill-opacity:1;stroke:none;paint-order:markers fill stroke" />
+          <text
+             id="text3018-70"
+             y="1198.2644"
+             x="265.78424"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
+             xml:space="preserve"><tspan
+               style="font-size:48px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke"
+               y="1198.2644"
+               x="265.78424"
+               id="tspan3020-48"
+               sodipodi:role="line">CPU/1</tspan></text>
+        </g>
+        <g
+           id="g1382"
+           style="paint-order:markers fill stroke">
+          <rect
+             y="1162.3219"
+             x="375.8392"
+             height="96.25"
+             width="165"
+             id="rect3012-74-4"
+             style="fill:#6a699c;fill-opacity:1;stroke:none;paint-order:markers fill stroke" />
+          <text
+             id="text3018-7-2"
+             y="1198.2644"
+             x="458.14044"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
+             xml:space="preserve"><tspan
+               style="font-size:48px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke"
+               y="1198.2644"
+               x="458.14044"
+               id="tspan3020-8-9"
+               sodipodi:role="line">CPU/2</tspan></text>
+        </g>
+        <g
+           id="g1374"
+           style="paint-order:markers fill stroke">
+          <rect
+             y="1162.3219"
+             x="568.68146"
+             height="96.25"
+             width="165"
+             id="rect3012-1-1"
+             style="fill:#0d3e67;fill-opacity:1;stroke:none;paint-order:markers fill stroke" />
+          <text
+             id="text3018-74-0"
+             y="1198.2644"
+             x="651.40344"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
+             xml:space="preserve"><tspan
+               style="font-size:48px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke"
+               y="1198.2644"
+               x="651.40344"
+               id="tspan3020-4-4"
+               sodipodi:role="line">CPU/3</tspan></text>
+        </g>
+        <g
+           id="g1366"
+           style="paint-order:markers fill stroke">
+          <rect
+             y="1162.3219"
+             x="761.52368"
+             height="96.25"
+             width="165"
+             id="rect3012-7-2"
+             style="fill:#fe0000;fill-opacity:1;stroke:none;paint-order:markers fill stroke" />
+          <text
+             id="text3018-0-2"
+             y="1198.2644"
+             x="843.9892"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
+             xml:space="preserve"><tspan
+               style="font-size:48px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke"
+               y="1198.2644"
+               x="843.9892"
+               id="tspan3020-1-0"
                sodipodi:role="line">CPU/4</tspan></text>
         </g>
         <g
-           id="g3199">
+           id="g1472"
+           style="paint-order:markers fill stroke">
           <rect
-             y="1023.4375"
-             x="1288.0668"
+             y="1162.3219"
+             x="954.36591"
              height="96.25"
              width="165"
-             id="rect3012-0"
-             style="fill:#0765c7;fill-opacity:1;stroke:none" />
+             id="rect3012-7-2-0"
+             style="fill:#0765c7;fill-opacity:1;stroke:none;paint-order:markers fill stroke" />
           <text
-             sodipodi:linespacing="125%"
-             id="text3018-2"
-             y="1057.38"
-             x="1348.2722"
-             style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla"
+             id="text3018-0-2-4"
+             y="1198.2644"
+             x="1037.6812"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
              xml:space="preserve"><tspan
-               style="font-size:48px;fill:#ffffff"
-               y="1057.38"
-               x="1348.2722"
-               id="tspan3020-7"
-               sodipodi:role="line">MEM</tspan></text>
-        </g>
-        <g
-           id="g3194">
-          <rect
-             y="894.59711"
-             x="1288.0668"
-             height="96.25"
-             width="165"
-             id="rect3012-1-9"
-             style="fill:#0d3e67;fill-opacity:1;stroke:none" />
-          <text
-             sodipodi:linespacing="125%"
-             id="text3018-74-8"
-             y="930.53961"
-             x="1356.5056"
-             style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla"
-             xml:space="preserve"><tspan
-               style="font-size:48px;fill:#ffffff"
-               y="930.53961"
-               x="1356.5056"
-               id="tspan3020-4-9"
-               sodipodi:role="line">BATT</tspan></text>
+               style="font-size:48px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke"
+               y="1198.2644"
+               x="1037.6812"
+               id="tspan3020-1-0-0"
+               sodipodi:role="line">GPU/1</tspan></text>
         </g>
       </g>
+      <rect
+         style="fill:none;stroke:#ffffff;stroke-width:4.64495;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect3956-8-9-3"
+         width="318.02106"
+         height="319.30063"
+         x="561.75043"
+         y="457.21625" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Vipnagorgialla;-inkscape-font-specification:Vipnagorgialla;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;paint-order:markers fill stroke"
+         x="721.65845"
+         y="495.39575"
+         id="text3972-10-3"><tspan
+           sodipodi:role="line"
+           id="tspan3974-7-6"
+           x="721.65845"
+           y="495.39575"
+           style="font-size:50px;line-height:1.25;fill:#ffffff;paint-order:markers fill stroke">PROCESSES</tspan></text>
     </g>
   </g>
 </svg>

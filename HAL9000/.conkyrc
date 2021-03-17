@@ -31,43 +31,49 @@ override_utf8_locale yes
 use_spacer none
 TEXT
 ${font Vipnagorgialla:size=14}${offset 5}${voffset 5}UPTIME: ${exec uptime | cut --delim="," -f 1,2 | sed "s/.*up\(.*\)/\1/"}${offset -5}${voffset -5}
-${font Vipnagorgialla:size=20}${offset 475}${voffset 160}KRN: $kernel${offset -475}${voffset -160}
-${offset 475}${voffset 165}$time${offset -475}${voffset -165}
-${offset 475}${voffset 260}${cpugraph cpu0 40,280 -l}${offset -475}${voffset -260}${font Vipnagorgialla:size=12}
-${offset 820}${voffset 190}${swapbar 10,225}${offset -820}${voffset -190}
-${offset 820}${voffset 190}${membar 40,225}${offset -820}${voffset -190}${font Vipnagorgialla:size=14}
-${offset 460}${voffset 200}PROCESSES: (NAME %CPU %MEM)${offset -460}${voffset -200}
-${offset 475}${voffset 200}${top name 1}${alignr 550} ${top cpu 1} ${top mem 1}${offset -475}${voffset -200}
-${offset 475}${voffset 200}${top name 2}${alignr 550} ${top cpu 2} ${top mem 2}${offset -475}${voffset -200}
-${offset 475}${voffset 200}${top name 3}${alignr 550} ${top cpu 3} ${top mem 3}${offset -475}${voffset -200}
-${offset 475}${voffset 200}${top name 4}${alignr 550} ${top cpu 4} ${top mem 4}${offset -475}${voffset -200}
-${offset 475}${voffset 200}${top name 5}${alignr 550} ${top cpu 5} ${top mem 5}${offset -475}${voffset -330}${font Vipnagorgialla:size=26}
-${offset 25}${voffset 460}${freq 1}/${cpu cpu1}${offset -25}${voffset -460}
-${offset 25}${voffset 455}${exec sensors | grep 'Core 0' | awk '{ print $3}'}${offset -25}${voffset -455}
-${offset 218}${voffset 395}${freq 2}/${cpu cpu2}${offset -218}${voffset -395}
-${offset 215}${voffset 390}${exec sensors | grep 'Core 0' | awk '{ print $3}'}${offset -215}${voffset -390}
-${offset 412}${voffset 330}${freq 3}/${cpu cpu3}${offset -412}${voffset -330}
-${offset 412}${voffset 325}${exec sensors | grep 'Core 1' | awk '{ print $3}'}${offset -412}${voffset -325}
-${offset 605}${voffset 265}${freq 4}/${cpu cpu4}${offset -605}${voffset -265}
-${offset 605}${voffset 260}${exec sensors | grep 'Core 1' | awk '{ print $3}'}${offset -605}${voffset -260}
-${offset 1145}${voffset 195}$mem${offset -1145}${voffset -195}
-${offset 1145}${voffset 190}$swap${offset -1145}${voffset -190}
-${offset 1100}${voffset -320}${font Vipnagorgialla:size=14}ROOT ${fs_used /}/${fs_size /}${offset -1100}${voffset 320}
-${offset 1100}${voffset -320}${fs_bar /}${offset -1100}${voffset 320}
-${offset 1100}${voffset -320}TMP ${fs_used /tmp}/${fs_size /tmp}${offset -1100}${voffset 320}
-${offset 1100}${voffset -320}${fs_bar /tmp}${offset -1100}${voffset 320}
-${if_mounted /mnt/usb}${offset 1100}${voffset -320}USB ${fs_used /mnt/usb}/${fs_size /mnt/usb}${offset -1100}${voffset 320}${endif}
-${if_mounted /mnt/usb}${offset 1100}${voffset -320}${fs_bar /mnt/usb}${offset -1100}${voffset 320}${endif}
-${if_mounted /mnt/work}${offset 1100}${voffset -320}WORK ${fs_used /mnt/work}/${fs_size /mnt/work}${offset -1100}${voffset 320}${endif}
-${if_mounted /mnt/work}${offset 1100}${voffset -320}${fs_bar /mnt/work}${offset -1100}${voffset 320}${endif}
-${offset 1150}${voffset -150}${font Vipnagorgialla:size=18}${battery_time BAT1}${offset -1150}${voffset 150}
-${offset 1150}${voffset -145}${battery_bar 8,140 BAT1}${offset -1150}${voffset 145}${font Vipnagorgialla:size=20}
-${offset 15}${voffset -515}IP: ${if_existing /var/run/wpa_cli-wlan0.pid}${addr wlan0}${else}${addr eth0}${endif}${offset -15}${voffset 515}
-${offset 15}${voffset -520}GW: ${gw_ip}${offset -15}${voffset 520}
-${offset 15}${voffset -525}DNS: ${nameserver 0}${offset -15}${voffset 525}
-${offset 15}${voffset -530}UP: ${if_existing /var/run/wpa_cli-wlan0.pid}${upspeedgraph wlan0 20,260 -l} ${font Vipnagorgialla:size=16}${upspeed wlan0}${font Vipnagorgialla:size=20}${else}${upspeedgraph eth0 20,260 -l} ${font Vipnagorgialla:size=16}${upspeed eth0}${font Vipnagorgialla:size=20}${endif}${offset -15}${voffset 530}
-${offset 15}${voffset -535}DL:  ${if_existing /var/run/wpa_cli-wlan0.pid}${downspeedgraph wlan0 20,260 -l} ${font Vipnagorgialla:size=16}${downspeed wlan0}${font Vipnagorgialla:size=20}${else}${downspeedgraph eth0 20,260 -l} ${font Vipnagorgialla:size=16}${downspeed eth0}${font Vipnagorgialla:size=20}${endif}${offset -15}${voffset 535}
-${offset 15}${voffset -540}${if_existing /var/run/wpa_cli-wlan0.pid}ESSID: ${wireless_essid wlan0}${endif}${offset -15}${voffset 540}
-${offset 15}${voffset -545}${if_existing /var/run/wpa_cli-wlan0.pid}LNK: ${wireless_link_qual_perc wlan0}${endif}${offset -15}${voffset 545}
-${offset 15}${voffset -550}${if_existing /var/run/wpa_cli-wlan0.pid}MAC: ${wireless_ap wlan0}${endif}${offset -15}${voffset 550}
-${offset 15}${voffset -480}${if_match ${exec find ~/.maildir/*/new -type f | grep -v "Interne\|Spams" | wc -l} > 0}${blink ${exec find ~/.maildir/*/new -type f | grep -v "Interne\|Spams" | wc -l} incomming message(s)}${endif}${offset -15}${voffset 480}
+${offset 35}${voffset 200}IP: ${if_existing /var/run/wpa_supplicant/wlan0}${addr wlan0}${else}${addr eth0}${endif} GW: ${gw_ip} DNS: ${nameserver 0}${offset -35}${voffset -200}
+${offset 35}${voffset 207}UP:${if_existing /var/run/wpa_supplicant/wlan0}${upspeedgraph wlan0 20,200 -l}${else}${upspeedgraph eth0 20,200 -l}${endif}  DL: ${if_existing /var/run/wpa_supplicant/wlan0}${downspeedgraph wlan0 20,200 -l}${else}${downspeedgraph eth0 20,200 -l}${endif}${offset -35}${voffset -207}
+${offset 35}${voffset 212}${if_existing /var/run/wpa_supplicant/wlan0}ESSID: ${wireless_essid wlan0}${endif}${offset -35}${voffset -212}
+${offset 35}${voffset 217}${if_existing /var/run/wpa_supplicant/wlan0}LNK: ${wireless_link_qual_perc wlan0}${endif}${offset -35}${voffset -217}
+${offset 35}${voffset 222}${if_existing /var/run/wpa_supplicant/wlan0}MAC: ${wireless_ap wlan0}${endif}${offset -35}${voffset -222}
+${font Vipnagorgialla:size=20}${offset 705}${voffset 48}KRN: $kernel${offset -705}${voffset -48}
+${offset 705}${voffset 51}$time${offset -705}${voffset -51}
+${offset 705}${voffset 140}${cpugraph cpu0 40,280 -l}${offset -705}${voffset -140}${font Vipnagorgialla:size=12}
+${offset 1050}${voffset 70}${swapbar 10,225}${offset -1050}${voffset -70}
+${offset 1050}${voffset 70}${membar 40,225}${offset -1050}${voffset -70}${font Vipnagorgialla:size=14}
+${offset 1350}${voffset -80}${font Vipnagorgialla:size=14}/ ${fs_used /}/${fs_size /}${offset -1350}${voffset 80}
+${offset 1350}${voffset -80}${fs_bar /}${offset -1350}${voffset 80}
+${offset 1350}${voffset -80}/TMP ${fs_used /tmp}/${fs_size /tmp}${offset -1350}${voffset 80}
+${offset 1350}${voffset -80}${fs_bar /tmp}${offset -1350}${voffset 80}
+${offset 1350}${voffset -80}/VAR/TMP/PORTAGE ${fs_used /var/tmp/portage}/${fs_size /var/tmp/portage}${offset -1350}${voffset 80}
+${offset 1350}${voffset -80}${fs_bar /tmp 100}${offset -1350}${voffset 80}
+${offset 700}${voffset 30}${top name 1}${alignr 705}${top cpu 1}${top mem 1}${offset -700}${voffset -30}
+${offset 700}${voffset 30}${top name 2}${alignr 705}${top cpu 2}${top mem 2}${offset -700}${voffset -30}
+${offset 700}${voffset 30}${top name 3}${alignr 705}${top cpu 3}${top mem 3}${offset -700}${voffset -30}
+${offset 700}${voffset 30}${top name 4}${alignr 705}${top cpu 4}${top mem 4}${offset -700}${voffset -30}
+${offset 700}${voffset 30}${top name 5}${alignr 705}${top cpu 5}${top mem 5}${offset -700}${voffset -30}
+${offset 700}${voffset 30}${top name 6}${alignr 705}${top cpu 6}${top mem 6}${offset -700}${voffset -30}
+${offset 700}${voffset 30}${top name 7}${alignr 705}${top cpu 7}${top mem 7}${offset -700}${voffset -30}
+${offset 700}${voffset 30}${top name 8}${alignr 705}${top cpu 8}${top mem 8}${offset -700}${voffset -30}
+${offset 700}${voffset 30}${top name 9}${alignr 705}${top cpu 9}${top mem 9}${offset -700}${voffset -30}
+${offset 700}${voffset 30}${top name 10}${alignr 705}${top cpu 10}${top mem 10}${offset -700}${voffset -30}${font Vipnagorgialla:size=26}
+${offset 46}${voffset 170}${freq 1}/${cpu cpu1}${offset -46}${voffset -170}
+${offset 46}${voffset 170}${exec sensors | grep 'Core 0' | awk '{ print $3}'}${offset -46}${voffset -170}
+${offset 232}${voffset 106}${freq 2}/${cpu cpu2}${offset -232}${voffset -106}
+${offset 232}${voffset 106}${exec sensors | grep 'Core 0' | awk '{ print $3}'}${offset -232}${voffset -106}
+${offset 424}${voffset 38}${freq 3}/${cpu cpu3}${offset -424}${voffset -38}
+${offset 424}${voffset 38}${exec sensors | grep 'Core 1' | awk '{ print $3}'}${offset -424}${voffset -38}
+${offset 620}${voffset -26}${freq 4}/${cpu cpu4}${offset -620}${voffset 26}
+${offset 620}${voffset -26}${exec sensors | grep 'Core 1' | awk '{ print $3}'}${offset -620}${voffset 26}
+${offset 40}${voffset 26}${freq 5}/${cpu cpu5}${offset -40}${voffset -26}
+${offset 40}${voffset 26}${exec sensors | grep 'Core 2' | awk '{ print $3}'}${offset -40}${voffset -26}
+${offset 230}${voffset -38}${freq 6}/${cpu cpu6}${offset -230}${voffset 38}
+${offset 230}${voffset -38}${exec sensors | grep 'Core 2' | awk '{ print $3}'}${offset -230}${voffset 38}
+${offset 426}${voffset -104}${freq 7}/${cpu cpu7}${offset -426}${voffset 104}
+${offset 426}${voffset -104}${exec sensors | grep 'Core 3' | awk '{ print $3}'}${offset -426}${voffset 104}
+${offset 620}${voffset -172}${freq 8}/${cpu cpu8}${offset -620}${voffset 172}
+${offset 620}${voffset -172}${exec sensors | grep 'Core 3' | awk '{ print $3}'}${offset -620}${voffset 172}
+${offset 1360}${voffset -240}$mem${offset -1360}${voffset 240}
+${offset 1360}${voffset -246}$swap${offset -1360}${voffset 246}
+${offset 1500}${voffset -150}${font Vipnagorgialla:size=18}${battery_time BAT1}${offset -1500}${voffset 150}
+${offset 1500}${voffset -145}${battery_bar 8,140 BAT1}${offset -1500}${voffset 145}${font Vipnagorgialla:size=20}
