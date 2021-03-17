@@ -1,9 +1,12 @@
 conky-themes
 ============
 
-HAL9000:
+# HAL9000
+
 A simple theme inspired by the 2001 computer HAL9000.
 Actually, it's just a play with text alignments, nothig serious and it's a work in progress.
+
+![screenshot](HAL9000/hal9000_screen.png "Screenshot of the result")
 
 To install it:
 ```bash
