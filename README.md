@@ -19,4 +19,4 @@ sudo cp {.,/usr/share/fonts/Vipnagorgialla}/VIPNAGOR.ttf
 ```
 I made the background image with inkscape and the svg is also available in the directory.
 
-The font used is `Vipnagorgialla` from laravel fonts which license is in the directory.
+The font used is `Vipnagorgialla` from Larabie Fonts which license is in the directory.
